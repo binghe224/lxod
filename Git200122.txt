@@ -82,3 +82,9 @@ ssh-keygen -t rsa -C "注册邮箱"
 cat id_rsa.pub 复制公钥
 ssh -T git@github.com
 Hi XXX! You've successfully authenticated, but GitHub does not provide shell access.表示连接成功。
+
+git remote查看当前远程库 -v查看远程库链接。
+git remote add origin <server> 连接远程服务器
+git push origin master 
+origin：远端仓库 master：要推送的分支。
+
